@@ -1,0 +1,12 @@
+@function rem($size) {
+	@return $size / 16px * 1rem;
+}
+
+$spacing: 30px;
+
+$red: red;
+$white: white;
+$black: black;
+
+$mainfont: "Nationale";
+$headlinefont: "VesperLibre";

@@ -1,0 +1,15 @@
+@font-face {
+	font-family: $mainfont; //$black;
+	src: url("~@/assets/fonts/Nationale-Regular.woff2") format("woff2");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: $headlinefont; //$bold;
+	src: url("~@/assets/fonts/VesperLibre-Heavy.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}

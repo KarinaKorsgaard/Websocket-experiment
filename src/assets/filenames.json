@@ -1,0 +1,346 @@
+{
+    "Ticks": {
+		"title":"Ticks", 
+		"description": [
+			"Ticks is an interactive theatre piece consisting of 13 multiplayer games that the aududience needs to complete throughout the play"],
+		"tags": "Openframeworks, theater, games",
+		"hero": "maze.png",
+		"images":["usertest.jpg, usertest2.jpg"],
+		"vimeoIDs":[],
+		"movies":[
+			{"src":"maze.mov", "text":""},
+			{"src":"design.mov", "text":"Players need to individualise their ticks before the play starts."},
+            {"src":"organize.mov", "text":"..."},
+            {"src":"gates.mov", "text":"In eact game, the players need to organise them selves, or collectivly decide who should sacrifice themselves. In this game, only the ticks that get one of the 6 spots will get though the gates. The gate will only open if the rest accept that decision and stays behind the line."}],
+		"client": "Erinevate Tubade Klubi"
+	},
+	"Kvante": {
+		"title":"Quantum Kate", 
+		"description": [
+			"Quantum Kate AR is an augmented reality game aiming to teach children about quantum chromodynamics. In this project my role was concept design, prototyping and development"],
+		"tags": "C#, Unity3D, Linq, ARCore, ARKit",
+		"hero": "06_feature_graphic.png",
+		"images":[],
+		"vimeoIDs":[],
+		"movies":[
+			{"src":"Quantum Kate AR Game - case video.mp4", "text":""},
+			{"src":"GameRules_1_findSpot.mp4", "text":"Find a good spot for playing, where furniture is not in the way."},
+			{"src":"GameRules_2_connectQuarks.mp4", "text":"Connect quarks that fit together to create particles."},
+			{"src":"GameRules_3_particles.mp4", "text":"Unlock all particles and and beat your highscore."},
+			{"src":"01_room.mp4", "text":"The game center is an interactive 360 view of Quantum Kate’s room. From her room you can start the game, learn more about quarks and view the highscore board."},
+			{"src":"02_quarks.mp4", "text":"The goal of the game is to discover as many particles as possible by connecting quarks! Set up as an infinite puzzle game, children almost accidentally learn about Quantum Chromodynamics while playing the game! Genius - right?"},
+			{"src":"03_achievements.mp4", "text":"All particles discovered during the game are saved in an interactive highscore board. On the high score board you can learn more about each individual particle you discovered. The more particles you collect, the more you level up."}],
+		"client": "Syddansk Universitet"
+	},
+	"IKEA": {
+		"title":"Say Hej", 
+		"description": [
+			"Internal campaign for IKEA. During the campaign IKEA empolyees could upload their picture to find their IKEA doppelganger. We used Azure face API to match up the users and find the most similar face in among the other users."],
+		"tags": "dontShow",
+        "hero": "tak.jpg",
+        "images":[
+			{"src":"ikea1.png", "text":""}
+		],
+		"vimeoIDs":[],
+		"movies":[
+			{"src":"tak-end.mp4", "text":""}
+		],
+		"client": "Ikea",
+		"useVideoAsHero": true
+	},
+	"Ballerup": {
+		"title":"Ballerup library", 
+		"description": [
+			"Interactive installations for Ballerup library to promote their online resources."],
+		"tags": "C++, openFrameworks, Arduino, Installation",
+        "hero": "speech.jpg",
+        "images":[
+			{"src":"travel.jpg", "text":""},
+			{"src":"speech.jpg", "text":""}
+		],
+		"vimeoIDs":[],
+		"movies":[],
+		"client": "Ballerup Library"
+	},
+    "Sydney":{
+		"tag": "dontShow",
+        "title":"Inside the sails", 
+        "description": [
+            "This is a project proposal for vivid 2017 made in collaboration with the Sydney Opera House. Together with architects and engineers we developed a structure to emphasise the construction of the Sydney Opera House. The inside of the beams would be embedded with prgrammable LED lights.",
+        
+            "My role was to design the light and develop an interactive prototype that both visualises the installation and would be able to map the LED's. The visualisation would serve as a tool for the rest of the group, enabeling them to develop visuals for the installation"],
+        "tags": "DMX512 over Art-Net, C++, openFrameworks, Lightinstallation, procedural design",
+        "hero": "hero.jpg",
+        "images":[{"src":"hero.jpg", "text":""}],
+		"vimeoIDs":[],
+		"movies":[
+			{"src":"soh_video.mp4", "text":"Screen cast of the app I created to visualise the LED's"}],
+		"client": "Eksperiments"
+    },
+    "Erdi":{
+        "title":"ERDI", 
+        "description": [
+            "Erdi is a part of a continuois research project at CIID - This is the third iteration.",
+
+            "In this iteration of our reflective devices, we exposed and focused on coexistence in Europe — continuing our CoHERE thread and theme of how diverse people can live together in the changing European landscape.",
+            
+            "How could we invite visitors to openly express their opinions and reflect on the thoughts that other people have left? We created a special device that is embodied by a custom-designed voice, 'Erdi' (which is how the abbreviation R.D. is pronounced by the computer) - who engages the visitor in a discussion on 'coexistence.'",
+            
+            "Erdi shares a few thoughts that have been left so far about coexistence and then asks the visitor to say what they think.  While Erdi follows a specific flow, Erdi is also listening for input and has a logical series to follow for the conversation.",
+            
+            "Over time, Erdi fills with thoughts and recollections that people leave behind in their discussions with Erdi (and, asynchronously, with one another - in that each person hears what others have said thus far). Overall, Erdi is a recorder and reflection of the visitors own experiences and feedback on the themes of the exhibitions and talks."
+            ],
+        "tags": "dontShow",
+        "hero": "space10.jpeg",
+		"images":[],
+		"unused": ["components.png","erdiflow-03.png"], 
+		"vimeoIDs":["230812086"],
+		"movies":[],
+		"client": "CIID"
+	},
+	"12Movements": {
+		"title":"12 Movements", 
+		"description": [
+			"12 movements is an interactive theatre performance that gives the audience control over music and soundscape, visuals and the actors movements.", 
+
+			"For this performance me and Taavi Varm developed 12 interconnected tangible userinterfaces used by the audience to control the performance created by Cabaret Rhizome."],
+		"tags": "C++, openFrameworks, Digital Signal Processing, Tangible interfaces",
+		"hero": "hero.jpg",
+		"images":[
+			{"src":"1.jpg", "text":""},
+			{"src":"2.jpg", "text":""},
+			{"src":"3.jpg", "text":""},
+			{"src":"4.jpg", "text":""},
+			{"src":"5.jpg", "text":""},
+			{"src":"6.jpg", "text":""},
+			{"src":"7.jpg", "text":""},
+			{"src":"8.jpg", "text":""},
+			{"src":"9.jpg", "text":""},
+			{"src":"10.jpg", "text":""},
+			{"src":"10.jpg", "text":""}
+		],
+		"vimeoIDs":["97214149"],
+		"movies":[],
+		"client": "Erinevate Tubade Klubi"
+	},
+	"Fazer": {
+		"title":"Fazer Candy land", 
+		"description": [
+			"This is a 15 * 3 meter interactive wall made for the new Fazer Visitor Centre in Vaanta, Helsinki. It is made with 4 kinect v. 2 cameras in the ceiling, which captures the silhouettes of the visitor and projects that to the visuals. The visitor can then push and trow the balls around the wall.", 
+
+			"The visuals are supposed to fit and extend the physical room, designed by Ateliér Sotoma.",
+		
+			"Final expression became more child-friendly and playful, using the visual elements from the physical room."],
+		"tags": "C++, openFrameworks, Open Sound Control, Installation, KinectV2",
+        "hero": "hero.jpg",
+        "images":[
+			{"src":"1.jpg", "text":""},
+			{"src":"2.jpg", "text":""},
+			{"src":"3.jpg", "text":""},
+			{"src":"4.jpg", "text":""},
+			{"src":"5.jpg", "text":""},
+			{"src":"6.png", "text":""}
+		],
+		"vimeoIDs":[],
+		"movies":[],
+		"client": "Fazer"
+	},
+	"SeniorAI": {
+		"title":"Senior AI", 
+		"description": [
+			"The bartender uses a webcam and openPose to estimate a human skeleton. This data is then sent through a random forrest classifier trained to recognise a number of different poses", 
+			
+			"When the user steps in, the bartender selects 3 random poses that the user needs to match within a certain time span. If the user succeeds, an arduino in combination with a ball valve serves a drink from a cocktail dispensor.",
+			
+			"Using machine learning allowed me to quickly test which set of poses were the right ones to teach the bartender."],
+		"tags": "C++, openPose, Supervised Machine Learning, electronics, Arduino, Installation",
+        "hero": "hero.png",
+        "images":[
+			{"src":"pose.png", "text":"OpenPose skeleton model data is sent to a random forest classifier and interpreted as 1 of 9 poses. If the user hits 3 in row, a drink it served"}
+		],
+		"vimeoIDs":[],
+		"movies":[
+			{"src":"senior_party.mp4", "text":"How it works"},
+			{"src":"senior_users.mp4", "text":"Shots of the guests from the party"},
+			{"src":"senior_production.mp4", "text":"During prototyping"}
+		],
+		"useVideoAsHero":true,
+		"client": "MolaLAB"
+	},
+	"Experiments": {
+		"title":"Code doodles", 
+		"description": ["Experiments with shaders, GPU particles and generated visuals. Mostly done for fun:)"],
+		"tags": "dontShow",
+        "hero": "hero.jpg",
+		"images":[
+			{"src":"shader.JPG", "text":""},
+			{"src":"shader2.JPG", "text":""},
+			{"src":"glitch1.png", "text":""},
+			{"src":"glitch2.png", "text":""},
+			{"src":"glitch3.png", "text":""},
+			{"src":"glitch3.png", "text":""}],
+		"vimeoIDs":[],
+		"unused":["glitch.mp4"],
+		"movies":[
+			{"src":"GPU_Particles.mp4", "text":""},
+			{"src":"dougnut.mp4", "text":""}],
+		"useVideoAsHero": true,
+		"client": "Experiment"
+	},
+	"Tree": {
+		"title":"TREE.O", 
+		"description": ["TREE.0 is an urban experiment currently in progress on Vester Voldgade in Copenhagen. It explores how data can be used subtly to create new activities and gatherings. The first prototype is manifested as a 6m high rusten steel tree with sunk-in light fixtures and a small sensor box to capture date about the environment.", "My role was to develop interactive visuals for the LED's, interacting with the sensors of the tree.", "https://www.berlingske.dk/kultur/traeet-der-spiller-naar-du-danser"],
+		"tags": "dontShow",
+        "hero": "hero2.jpeg",
+        "images":[
+			{"src":"2.jpg", "text":""},
+			{"src":"1.png", "text":""}],
+		"vimeoIDs":[],
+		"movies":[],
+		"client": "Dansk Arkitektur Center"
+	},
+	"Mirror": {
+		"title":"The Digital Mirror", 
+		"description": ["The digital mirror, part the exhibition 'Update' at Danish Centre of Architecture, is placed at the entrance of the exhibition. It shows the viewer and image of themselves with lables of the data available online and the actores who owns that data."],
+		"tags": "C++, GLSL, KinectV2",
+		"hero": "mirror.jpg",
+		"unused": ["hero.png"],
+        "images":[],
+		"vimeoIDs":[],
+		"movies":[
+			{"src":"mirror_movie1.mp4", "text":""},
+			{"src":"mirror_movie2.mp4", "text":""}],
+		"useVideoAsHero": true,
+		"client": "Dansk Arkitektur Center"
+	},
+	"Bymodel": {
+		"title":"Bymodellen", 
+		"description": [
+			"The 'Bymodel' (city model) shows an overview of the street Vester Voldgade in Copenhagen. Each marked spot is fed with live login data from facebook and twitter visualising the current activity. The 'Bymodel' was part of the exhibition 'Update' at Danish Centre of Architecture (DAC)", "My role was to create a system to easily change and update the traffic in the street and help out with the tracking done using 2 kinectV2 hanging in the ceiling"],
+            "tags": "dontShow",
+        "hero": "hero.jpg",
+        "images":[
+			{"src":"dac_bymodel_1.jpg", "text":""},
+			{"src":"dac_bymodel_2.jpg", "text":""}],
+		"vimeoIDs":[],
+		"movies":[{"src":"dac_bymodel_vid.mp4", "text":""}],
+		"useVideoAsHero":true,
+		"client": "Dansk Arkitektur Center"
+	},
+	"Ba": {
+		"title":"Playing Patterns", 
+		"description": [
+			"My Bachelor thesis is about developing children's mathematical understanding through play in kindergarden. My aim was to give children a tool to let explore and get an intuitive understanding of algebra and fractions through playing with patterns.",
+			
+			"Through research I found that mathematics is often met with anxiety. One of the reasons is because the mathematical language is completely new and unfamiliar to children. This anxiety makes it almost impossible learn. My aim is to create something that children can play with and explore in kindergarten, that then later can be used by the teacher to introduce a mathematical principle, like algebra or fractions. My hope is that this will take some of the anxiety out of math by introducing it trough something familiar that they already, through play, have an intuitive understanding of.",
+
+			"My research showed me that the ability to understand mathematics is connected to our ability to recognize systems and patterns. Articles by Mulligan and Mitchelmore and Marina Papic explore how pattering is equal to early algebraic thinking. In these articles they stress the importance of translating the pattern structure, so I am mainly working with how to translate patterns into sound.",
+			
+			"I used rapid prototyping and video for exploring ideas. The final prototype generates poly-rythmic patters when the user places the colored blocks on the table. The poly-rythmic patterns can be used to explain the matematical principle of fractions and algebra."],
+		"tags": "Processing, Tangible prototype",
+        "hero": "hero.png",
+        "images":[
+			{"src":"1.jpg", "text":""},
+			{"src":"2.png", "text":""},
+			{"src":"3.png", "text":""},
+			{"src":"4.png", "text":""},
+			{"src":"5.png", "text":""}],
+		"vimeoIDs":["68626959"],
+		"movies":[],
+		"client": "Bachelor thesis"
+	},
+	"Ericsson": {
+		"title":"Ericsson Conference", 
+		"description": ["Visuals made to react to audio at an Ericsson conference in Tallinn"],
+		"tags": "C++, fft analysis, Audio reactive visuals, Projection mapping",
+        "hero": "screen.png",
+        "images":[],
+		"vimeoIDs":[],
+		"movies":[
+			{"src":"ericsson_movie3.mp4", "text":""},
+			{"src":"ericsson_movie2.mp4", "text":""}],
+		"useVideoAsHero": true,
+		"client": "Ericsson"
+	},
+	"PMOS": {
+		"title":"Passio Musica", 
+		"description": [
+			"Passio Musicae Open Source is an interactive audio installation and sonification of the Sibelius Monument, exhibited at Ateneum, Helsinki. The exhibition is placed in a room of the dimensions 8x10 meters, of which it takes up all of the space. The sounds are constructed from the actual physical dimensions of the 569 steel tubes of the original monument. The idea is that the installation enables the visitor to explore the hidden sounds of the monument. by moving around in the exhibition space.", 
+
+			"Displayed at the Insternational Synopsiom of Electronic Art (ISEA) 2015 in Vancouver and at Monteaudio 16 in Uruguay. When we created the installation it was important to us, to keep all input immersive, as we felt it responded to the ideas of playing the pipes. Therefore, the room the audience enter is almost completly dark, except for the light shape on the floor, outlining the monuments dimensions very roughly. The sounds are likewise created to blend together and ease in and out smoothly. The sound design is based on recording from the actual monument, which produces a very low sound if you place the microphone inside one of the steel pipes."
+		],
+		"tags": "C++, Digital Signal Processing, ISEA2015, Projection mapping",
+        "hero": "PMMOS4.jpg",
+        "images":[
+			{"src":"PMMOS2.jpg", "text":""},
+			{"src":"PMMOS3.jpg", "text":""},
+			{"src":"PMMOS5.jpg", "text":""}],
+		"vimeoIDs":["122469214"],
+		"movies":[],
+		"client": "Finnish National Gallery"
+	},
+
+	"Poster": {
+		"title":"Poster design", 
+		"description": [
+			"This is a small datavisualisation exersise on a self-chosen subject. I choose to visualise communication based on data collected by analysing the way we speak and how we communicate. The data is of course subjective and only my own interpretation.", 
+			"The posters was the final outcome visualising a sentence by using colors as mood, shapes representing gestures and graphics representing each word of the sentence."],
+        "tags": "dontShow",
+        "hero": "poster3.png",
+        "images":[
+			{"src":"poster2.png", "text":""},
+			{"src":"poster1.png", "text":""},
+			{"src":"1.jpg", "text":""},
+			{"src":"2.jpg", "text":""},
+			{"src":"3.jpg", "text":""},
+			{"src":"4.jpg", "text":""},
+			{"src":"5.jpg", "text":""}],
+		"vimeoIDs":[],
+		"movies":[],
+		"client": "Eksperiments"
+	},
+	"MADE": {
+		"title":"MADE", 
+		"description": [
+			"The project is based on a multidisciplinary and iterative design process, where different scientific theoretical methods as architectural, engineering and design methods are applied. The aim of the project is to create a unified expression of the Sydney Opera House and deepen the visitor experience. The final concept was developed on the basis of having identified 3 main reasons people come to the house. To see the house itself, to see a show, or to enjoy the view while eating at one of the house restaurants and bars. This resulted in a concept implementing both architectural, engineering and design solutions to emphasise this trinity:", 
+
+			"Stories of the House: This section is aimed at the visitor that comes to experience the Sydney Opera House as a tourist attraction. The aim is to create a visitor centre that lets the visitor explore the history and controversial stories of the house.",
+			
+			"Shows of the House: This section is for the house's function as a venue for performing arts", 
+			
+			"Food of the House: This section unifies the existing dining possibilities at the house to become a exclusive foodhall, letting the various stalls share the limited seating area of the lower concourse.", 
+
+			"My role in the project as service designer, was to develop a service design concept incorporating the existing elements of the Sydney Opera House into a unified experience. The concept evolved around the three main identified visitor goals."],
+		"tags": "Graphic design, Experience design",
+        "hero": "hero.jpg",
+        "images":[
+			{"src":"SOH0.jpg", "text":""},
+			{"src":"SOH1.jpg", "text":""},
+			{"src":"SOH2.jpg", "text":""},
+			{"src":"SOH3.jpg", "text":""},
+			{"src":"SOH4.jpg", "text":""},
+			{"src":"SOH5.jpg", "text":""}],
+		"vimeoIDs":[],
+		"movies":[],
+		"client": "Exchange Programme"
+	},
+
+	"Ma": {
+		"title":"Anatomy of a Decision", 
+		"description": [
+			"The topic of my project-based thesis work is exploring audience participation in interactive narratives through interconnected tangible user interfaces in the context of a live theatre performance.", 
+
+			"The interactive play, Anatomy of a Decision, requires the audience to decide which direction the story of the play should take throughout nine scenes."],
+		"tags": "C++, reacTIVision, 72 players connected over UDP/IP, Open Sound Control",
+        "hero": "hero.jpg",
+        "images":[
+			{"src":"this1.png", "text":""},
+			{"src":"this2.png", "text":""},
+			{"src":"this3.png", "text":""},
+			{"src":"this4.png", "text":""},
+			{"src":"this5.png", "text":""}],
+		"vimeoIDs":[],
+		"movies":[],
+		"client": "Erinevate Tubade Klubi"
+	}
+}

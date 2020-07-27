@@ -1,0 +1,92 @@
+@import "./reset.scss";
+@import "./fonts";
+
+$baseScreenSize: 800px;
+
+html {
+	font-family: $mainfont;
+	width: 80vw;
+	max-width: 1200px;
+	margin: 0 auto;
+	font-size: 16px;
+    background-color: white;
+    color: black;
+}
+@include tablet {
+	html {
+		font-size: 10px; // is 16 in design, but design is made for 1920 / 1080 screens..
+	}
+}
+
+.white {
+	color: $white;
+}
+.uppercase {
+	text-transform: uppercase;
+}
+
+.spaced {
+	margin-top: $spacing;
+	margin-bottom: $spacing;
+}
+
+.subtitle {
+	font-size: rem(15px);
+}
+
+h1 {
+	font-size: rem(55px);
+	font-family: $headlinefont;
+}
+
+h2 {
+	font-size: rem(25px);
+	font-family: $headlinefont;
+}
+
+p {
+	font-size: rem(16px);
+	&.small {
+		font-size: rem(12px);
+	}
+	&.light {
+		font-family: $mainfont;
+	}
+	&.large {
+		font-size: rem(20px);
+	}
+	&.x-large {
+		font-size: rem(20px);
+	}
+}
+
+button {
+	font-family: $mainfont;
+	font-size: rem(12px);
+}
+
+.btn {
+	/* border-radius: 888px; */
+	width: rem(223px);
+	height: rem(24px);
+	padding: 0px;
+	border: 1px solid $red;
+	color: $red;
+
+	&.white-outline {
+		border: 1px solid $white;
+	}
+
+	&.white-text {
+		color: $white;
+	}
+
+	&.black {
+		border: 1px solid $black;
+		color: $black;
+	}
+
+	&.disabled {
+		opacity: 0.4;
+	}
+}
